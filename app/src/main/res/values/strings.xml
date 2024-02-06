@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CatSweeper</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="Mines">Mines </string>
+    <string name="of"> of </string>
+    <string name="minesFound"> mines found</string>
+    <string name="scansUsed">Scans used: %1$d</string>
+    <string name="bombs">Mines %1$d of %2$d mines found</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_game">gameActivity</string>
+    <string name="hyperlink"><a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home"></a>Link to Course Website</string>
+    <string name="hyperlink1"><a href = "https://www.dreamstime.com/grandmother-omg-scared-grandma-oh-my-god-emoji-old-lady-vector-grandmother-omg-scared-grandma-oh-my-god-emoji-old-lady-vector-image103955386"></a>Link to Granny Image</string>
+    <string name="hyperlink_2"><a href = "https://www.istockphoto.com/vector/spring-landscape-at-city-park-in-the-morning-natural-public-park-with-flowers-gm1363654226-435133979"></a>Link to Park Image</string>
+
+</resources>

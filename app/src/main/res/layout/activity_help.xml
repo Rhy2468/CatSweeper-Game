@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/park"
+    tools:context=".helpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="The Cats Are Missing!"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="647dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:text="The object of the came is to find all of Granny's cats. When playing the game, click on different bushes to search for a cat. If you find one, great! Granny will be so happy to hear that. Otherwise you will see a number indicating how many cats are present in that row or column. You can also click a cat once they have been found to have them help you scan their row and column for other hidden cats. Try to find all the cats in the least amount of scans, good luck!"
+        android:textStyle="bold"
+        android:background="#89CFF0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="cursive"
+        android:text="How to Play"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="cursive"
+        android:text="Resourses"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvlink" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="cursive"
+        android:text="Authors"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvlink"
+        android:layout_width="646dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="15dp"
+        android:background="#89CFF0"
+        android:text="@string/hyperlink"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/resources1"
+        android:layout_width="142dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/hyperlink1"
+        android:textStyle="bold"
+        android:background="#89CFF0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/resources2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/hyperlink_2"
+        android:textStyle="bold"
+        android:background="#89CFF0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resources1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="647dp"
+        android:layout_height="39dp"
+        android:background="#89CFF0"
+        android:text="This app was created by Ricky Yang and Teeya Li. Written for Brian Frasers Introduction to Software Engineering, CMPT 276."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/resources3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Link to Bush 1 Image"
+        android:textStyle="bold"
+        android:background="#89CFF0"
+        app:layout_constraintStart_toEndOf="@+id/resources1"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/resources4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Link to Bush 2 Image"
+        android:textStyle="bold"
+        android:background="#89CFF0"
+        app:layout_constraintStart_toEndOf="@+id/resources2"
+        app:layout_constraintTop_toBottomOf="@+id/resources3" />
+
+
+    <TextView
+        android:id="@+id/resources6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#89CFF0"
+        android:text="Link to Congratulation Image"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/resources4"
+        app:layout_constraintTop_toTopOf="@+id/resources4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
